@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_21_085730) do
+ActiveRecord::Schema.define(version: 2022_01_21_085805) do
 
   create_table "feeds", force: :cascade do |t|
     t.text "url"
@@ -20,6 +20,18 @@ ActiveRecord::Schema.define(version: 2022_01_21_085730) do
     t.boolean "should_show", default: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "items", force: :cascade do |t|
+    t.text "link"
+    t.text "description"
+    t.datetime "pub_date"
+    t.text "title"
+    t.text "json"
+    t.integer "feed_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["feed_id"], name: "index_items_on_feed_id"
   end
 
 end
