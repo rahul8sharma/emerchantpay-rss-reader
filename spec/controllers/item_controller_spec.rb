@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe HomeController, type: :controller do
+RSpec.describe ItemController, type: :controller do
   describe 'GET index' do
     it 'should return success' do
       get :index

@@ -1,4 +1,4 @@
-class HomeController < ApplicationController
+class ItemController < ApplicationController
   def index
     scoped = Item.visible.order('pub_date')
     if params[:feed_id].present?
