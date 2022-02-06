@@ -133,7 +133,7 @@ ActiveAdmin.setup do |config|
   # to be used for ordering:
   # config.comments_order = 'created_at ASC'
   #
-  # You can disable the menu item for the comments index page:
+  # You can disable the menu items for the comments index page:
   # config.comments_menu = false
   #
   # You can customize the comment menu:
@@ -237,7 +237,7 @@ ActiveAdmin.setup do |config|
   #     end
   #   end
   #
-  # If you wanted to add a static menu item to the default menu provided:
+  # If you wanted to add a static menu items to the default menu provided:
   #
   #   config.namespace :admin do |admin|
   #     admin.build_menu :default do |menu|

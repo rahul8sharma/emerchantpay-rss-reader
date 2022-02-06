@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  get 'item/index'
-  get 'item/feeds'
-  root to: 'item#index'
+  root to: 'items#index'
   ActiveAdmin.routes(self)
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :items, only: [:index, :show] do
+    get 'feeds', on: :collection
+  end
 end
