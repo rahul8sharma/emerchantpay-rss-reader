@@ -28,6 +28,13 @@ Run in terminal:
 rails s
 ```
 
+# How to run rspec
+
+Run in terminal:
+```
+bundle exec rspec spec
+```
+
 # How to run daemon for fetching RSS feeds
 ```
 rake rss:daemon
