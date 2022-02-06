@@ -13,12 +13,10 @@ RSpec.describe ItemsController, type: :controller do
     end
 
     it "assigns @paginator" do
-      feed = create(:feed)
-      items = create_list(:item, 3, feed_id: feed.id)
+      create_list(:item, 3)
 
       get :index
-
-      expect(assigns(:paginator).records).to eq(items.reverse)
+      expect(assigns(:paginator).records).to eq(Item.all.order('id desc'))
     end
   end
 
