@@ -1,11 +1,6 @@
 Feed.create([
   {
-    url: 'https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms',
-    interval_seconds: 61,
-    should_fetch: true
-  },
-  {
-    url: 'https://www.thehindu.com/news/national/feeder/default.rss',
+    url: 'https://www.bhaskar.com/rss-v1--category-1740.xml',
     interval_seconds: 61,
     should_fetch: true
   }

@@ -12,6 +12,7 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require jquery3
-//= require popper
-//= require bootstrap-sprockets
+//= require jquery-3.2.1.min
+//= require tether.min
+//= require bootstrap
+//= require scripts

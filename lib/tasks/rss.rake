@@ -13,6 +13,7 @@ namespace :rss do
           rss = RSS::Parser.parse(open(f.url).read, false).items
 
           rss.each do  |item|
+            binding.pry
             if Item.where(link: item.link).blank?
               f.items.create!(
                 link: item.link,
