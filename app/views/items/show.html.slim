@@ -1,6 +1,0 @@
-.div
-  - if @item.title.present?
-    h3 = @item.title.html_safe
-  .mt-1= link_to @item.link, @item.link, target: '_blank'
-  .mt-3= @item.pub_date.strftime("%B %d, %Y")
-  .mt-3= raw @item.description.html_safe

@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   resources :items, only: [:index, :show] do
     get 'feeds', on: :collection
   end
+
+  get 'homes/contact_us'
 end
