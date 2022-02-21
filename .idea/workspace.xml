@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a49990-a293-4890-bbf2-96bb2105826c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/emerchantpay-rss-reader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/emerchantpay-rss-reader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rails-rss-reader-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rails-rss-reader-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/show.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="23pYkQGE3TwiKzZMfQ8fSCArGKE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -267,7 +275,8 @@
       <workItem from="1643614012275" duration="4990000" />
       <workItem from="1643640704701" duration="4531000" />
       <workItem from="1644159989751" duration="2381000" />
-      <workItem from="1645252390377" duration="2386000" />
+      <workItem from="1645252390377" duration="3662000" />
+      <workItem from="1645452818802" duration="1627000" />
     </task>
     <servers />
   </component>
@@ -285,5 +294,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/emerchantpay_rss_reader@Development__emerchantpay_rss_reader.rcov" NAME="Development: emerchantpay-rss-reader Coverage Results" MODIFIED="1645452930327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="emerchantpay-rss-reader" />
   </component>
 </project>

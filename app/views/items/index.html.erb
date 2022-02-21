@@ -30,7 +30,7 @@
         <% @scoped.each do |item| %>
           <div class="col-sm-6" style="border-bottom-style: ridge;">
             <h4 class="pt-20">
-              <b><%= link_to item.title.html_safe, item_path(item), target: '_blank' %></b>
+              <b><%= link_to item.title.html_safe, item_path(item) %></b>
             </h4>
             <ul class="list-li-mr-20 pt-10 mb-30">
               <li class="color-lite-black">by <a href="#" class="color-black"><b>Olivia Capzallo,</b></a>
